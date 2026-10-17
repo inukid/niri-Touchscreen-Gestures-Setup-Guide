@@ -1,0 +1,10 @@
+[Unit]
+Description=Niri tablet auto-rotation helper
+After=graphical-session.target
+
+[Service]
+Type=simple
+ExecStart=/home/%u/.local/bin/niri-rotate.sh
+
+[Install]
+WantedBy=default.target

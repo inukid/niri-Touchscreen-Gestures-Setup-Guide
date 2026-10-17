@@ -1,0 +1,26 @@
+gestures {
+    show-touch-points "gestures"
+
+    touchscreen-swipe {
+        fingers 3
+        horizontal-swipe "resize-column"
+        tap             { maximize-column; }
+        tap-more        { toggle-overview; }
+        swipe-more-down { close-window; }
+        swipe-more-up   { fullscreen-window; }
+
+        hold {
+            left  { move-column-left; }
+            right { move-column-right; }
+            up    { move-window-to-workspace-up; }
+            down  { move-window-to-workspace-down; }
+        }
+    }
+
+    touchscreen-edge-swipe {
+        bottom { spawn-sh "~/.local/bin/niri-osk.sh"; }
+        top    { toggle-overview; }
+        left   { focus-column-left; }
+        right  { focus-column-right; }
+    }
+}
