@@ -25,7 +25,7 @@ gestures {
         // What the horizontal drag does: "resize-column" widens/narrows the
         // focused window, tracking the fingers 1:1; the default "move-view"
         // scrolls the view across columns instead.
-        horizontal-swipe "resize-column"
+        //horizontal-swipe "resize-column"
 
         // The discrete gestures (taps, flicks) fire once, on finger lift.
         tap             { maximize-column; }                    // maximize / restore
