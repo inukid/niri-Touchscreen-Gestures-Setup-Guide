@@ -1,6 +1,6 @@
-# niri-tablet setup
+# niri-touchscreen setup
 
-This repository contains a portable installer for a Niri-based tablet setup with touchscreen gestures, an on-screen keyboard toggle, and rotation helpers.
+This repository contains a portable installer for a Niri-based tablet or touchscreen pc setup with touchscreen gestures, an on-screen keyboard toggle, and rotation helpers.
 
 ## Files
 
